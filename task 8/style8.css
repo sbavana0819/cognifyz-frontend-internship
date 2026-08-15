@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #F7F5FC;
+  color: #010913;
+  font-size: 16px;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 25px;
+  background-color: #E8E1F5;
+  border-radius: 10px;
+}
+.container h1 {
+  color: rgb(7, 16, 1);
+  text-align: center;
+}
+.container h2 {
+  color: rgb(7, 16, 1);
+}
+.container p {
+  line-height: 1.6;
+}
+
+.box {
+  margin: 20px auto;
+  display: flex;
+  gap: 20px;
+}
+.box .card {
+  flex: 1;
+  padding: 20px;
+  background-color: #E8E1F5;
+  border-radius: 10px;
+}
+.box .card h3 {
+  color: rgb(7, 16, 1);
+}
+.box .card p {
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=style8.css.map */
