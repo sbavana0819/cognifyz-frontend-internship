@@ -6,32 +6,33 @@ function validateForm(){
 
     if (name == ""){
         alert("Please enter your name")
+        return false;
     }
+    else if(email == ""){
+        alert("Please enter email")
+        return false;
+    }
+    else if(!email.includes("@") || !email.includes(".")){
+        document.getElementById("checkEmail").innerHTML = "Please enter valid email";
+        document.getElementById("email").classList.add("email-input")
+        return false;
+    }    
     else if(password == ""){
         alert("Please enter password")
+        return false;
     }
     else if(conPassword == ""){
         alert("Please enter confirm password")
+        return false;
     }
     else if(password != conPassword){
         alert("password does not match")
+        return false;
     }
     else{
         alert("Form successfully submited")
-    }
-    //To check email
-    if (email == ""){
-        document.getElementById("checkEmail").innerHTML = "please enter your email";
-        document.getElementById("email").classList.add("email-input")
-    }
-    else if(!email.includes("@")){
-        document.getElementById("checkEmail").innerHTML = "Email must contain @";
-        document.getElementById("email").classList.add("email-input")
-    }
-    else{
-        document.getElementById("checkEmail").innerHTML = "";
-        document.getElementById("email").classList.remove("email-input")
+        document.getElementById("myForm").reset();
+        return true;
+    };
 
-    }
 }
-

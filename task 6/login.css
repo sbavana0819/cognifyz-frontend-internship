@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1{
     padding: 10px;
-    color: #e4dbdb;
+    color: white;
 }
 
 body {
-    background: #eeb2ab;
+    background: white;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ body {
 }
 
 form {
-    background: #270664;
+    background: #1E1B4B;
     width: 400px;
     padding: 30px;
     border-radius: 15px;
@@ -29,7 +29,7 @@ form {
     gap: 20px;
 }
 label{
-    color:#d9dde5;
+    color:#dee1e9;
 }
 input{
     width: 350px;
@@ -37,13 +37,13 @@ input{
     border-radius: 10px;
 }
 button{
-    background: #16A34A;
+    background:#6366F1;
     width: 350;
     padding: 10px;
     border-radius: 20px;
-    color: #111827;
+    color: #FFFFFF;
 
 }
 p{
-    color: rgb(234, 25, 25);
+    color: rgb(240, 154, 154);
 }

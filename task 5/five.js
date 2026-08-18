@@ -8,9 +8,6 @@ fetch("https://jsonplaceholder.typicode.com/users")
             <h2>${user.name}</h2>
             <p>Email: ${user.email}</p>
             <p>Phone Number: ${user.phone}</p>
-        </div>`
+        </div>` 
     })
 })
-.catch(error=>{
-    console.log(error);
-});
